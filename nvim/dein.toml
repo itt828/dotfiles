@@ -1,0 +1,57 @@
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+merged = 0
+rev = 'release'
+[[plugins]]
+repo = 'lambdalisue/fern.vim'
+hook_add='''
+nnoremap <C-n> :Fern . -reveal=% -drawer -toggle -width=40<CR>
+let g:fern#renderer = "nerdfont"
+let g:fern#default_hidden=1
+'''
+[[plugins]]
+repo = 'lambdalisue/fern-git-status.vim'
+[[plugins]]
+repo = 'lambdalisue/nerdfont.vim'
+[[plugins]]
+repo = 'lambdalisue/fern-renderer-nerdfont.vim'
+[[plugins]]
+repo = 'yuki-yano/fern-preview.vim' 
+[[plugins]]
+repo = 'vim-denops/denops.vim'
+[[plugins]]
+repo = 'vim-skk/denops-skkeleton.vim'
+hook_add='''
+imap <C-j> <Plug>(skkeleton-toggle)
+cmap <C-j> <Plug>(skkeleton-toggle)
+'''
+[[plugins]]
+repo = 'rust-lang/rust.vim'
+hook_add='''
+let g:rustfmt_autosave=1
+'''
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+[[plugins]]
+repo = '4513ECHO/vim-colors-hatsunemiku'
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add='''
+let g:lightline = {
+    \ 'colorscheme': 'hatsunemiku',
+    \
+    \    }
+set laststatus=2
+set noshowmode
+'''
+[[plugins]]
+repo = 'junegunn/fzf'
+build = './install --bin'
+merged = '0'
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+depends = 'fzf'
+hook_add='''
+
+'''

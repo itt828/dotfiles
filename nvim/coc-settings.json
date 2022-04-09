@@ -1,0 +1,9 @@
+{
+    "languageserver": { 
+                "satysfi-ls": {
+                        "command": "/home/itt/fuga/satysfi-language-server/target/debug/satysfi-language-server",
+                        "args":[],
+                        "filetypes":["satysfi"]
+                      }
+        }
+}
