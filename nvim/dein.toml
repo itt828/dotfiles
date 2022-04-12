@@ -55,3 +55,10 @@ depends = 'fzf'
 hook_add='''
 
 '''
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+hook_add='''
+let  g:neosnippet#snippets_directory = '~/dotfiles/nvim/snippets'
+'''
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
