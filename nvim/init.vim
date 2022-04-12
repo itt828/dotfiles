@@ -44,7 +44,7 @@ set shiftwidth=4
 set smartindent
 
 set cursorline
-set cursorcolumn
+"set cursorcolumn
 
 set noswapfile
 
