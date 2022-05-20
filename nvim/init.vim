@@ -52,6 +52,8 @@ autocmd BufRead,BufNewFile *.saty set filetype=satysfi
 autocmd BufRead,BufNewFile *.satyg set filetype=satysfi
 autocmd BufRead,BufNewFile *.satyh set filetype=satysfi
 
-colorscheme hatsunemiku 
+colorscheme iceberg 
 
+set clipboard&
+set clipboard^=unnamedplus
 
