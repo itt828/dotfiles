@@ -30,3 +30,5 @@ autoload -Uz compinit && compinit
 alias vim=nvim
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export GPG_TTY=$TTY
