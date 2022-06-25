@@ -190,8 +190,8 @@ repo = 'vim-denops/denops.vim'
 [[plugins]]
 repo = 'vim-skk/denops-skkeleton.vim'
 hook_add='''
-imap <C-j> <Plug>(skkeleton-toggle)
-cmap <C-j> <Plug>(skkeleton-toggle)
+imap <C-j> <Plug>(skkeleton-enable)
+cmap <C-j> <Plug>(skkeleton-enable)
 call skkeleton#config({
 \'eggLikeNewline':v:true
 \})
@@ -209,8 +209,6 @@ repo = '4513ECHO/vim-colors-hatsunemiku'
 repo = 'itchyny/lightline.vim'
 hook_add='''
 let g:lightline = {
-    \ 'colorscheme': 'hatsunemiku',
-    \
     \    }
 set laststatus=2
 set noshowmode
